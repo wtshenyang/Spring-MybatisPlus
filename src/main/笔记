@@ -1,0 +1,19 @@
+此项目为框架基础项目
+
+
+1:banner生成王章:   http://patorjk.com/software/taag/#p=display&h=0&v=3&f=Big&t=shenyang
+
+
+2:Swagger访问地址：localhost:8080/app/swagger-ui.html
+
+
+
+
+
+
+其他：
+    1:idea,for循环快捷键，list.for
+    2:idea 快速生成返回值对象 ctrl + alt + v
+
+
+mybatis-plus 的CRUD

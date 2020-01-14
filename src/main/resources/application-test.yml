@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: RoadApplication
+  datasource:
+    #MYSQL数据库
+    database1:
+      url: jdbc:mysql://127.0.0.1:3306/yimaiwang?useUnicode=true&characterEncoding=utf8
+      username: root
+      password: 1234
+      driverClassName: com.mysql.jdbc.Driver
+    #ORACLE 数据库
+    database2:
+      url: jdbc:oracle:thin:@127.0.0.1:1521:orcl
+      username: XY_APP
+      password: XY_APP
+      driverClassName: oracle.jdbc.driver.OracleDriver
+server:
+  port: 8090

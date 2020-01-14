@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: RoadApplication
+
+  datasource:
+    name: yimaiwang
+    driverClassName: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@127.0.0.1:1521:orcl
+    username: XY_APP
+    password: XY_APP
+
+server:
+  port: 8080
+  context-path: /app
+
+#mybatis:
+#  mapper-locations: classpath*:mapper/*.xml  #注意：一定要对应mapper映射xml文件的所在路径
+#  type-aliases-package: com.iflytek.springboot.dao  # 注意：对应实体类的路径
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#    cache-enabled: true
+
+
+
+mybatis-plus:
+  mapper-locations: classpath*:mapper/*.xml  #注意：一定要对应mapper映射xml文件的所在路径
+  type-aliases-package: com.iflytek.springboot.dao  # 注意：对应实体类的路径
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    cache-enabled: true
+
+

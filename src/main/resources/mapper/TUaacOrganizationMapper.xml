@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.iflytek.springboot.dao.TUaacOrganizationDao" >
+  <select id="listPageTUaacOrganizationBeanlist" resultType="com.iflytek.springboot.pojo.TUaacOrganizationBean" parameterType="com.iflytek.springboot.pojo.TUaacOrganizationBean" >
+    select 
+   *
+    from t_uaac_organization
+    where 1=1 
+
+  </select>
+    <select id="getListAll" resultType="com.iflytek.springboot.pojo.TUaacOrganizationBean" parameterType="com.iflytek.springboot.pojo.TUaacOrganizationBean">
+          select
+   *
+    from t_uaac_organization
+    where 1=1
+    </select>
+</mapper>
